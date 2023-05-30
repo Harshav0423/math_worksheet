@@ -1,0 +1,44 @@
+
+.container {
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    min-width: 200px;
+    min-height: 600px;
+    margin-top: 45px;
+    gap:10px;
+}
+
+.content {
+	margin-top: 10px;
+    padding-left: 20px;
+}
+
+.box {
+	height: 20px;
+	max-width: 250px;
+	display: flex;
+	background: rgb(9, 0, 76);
+	padding: 10px 12px;
+	border-radius: 5px;
+	border: 2px solid transparent;
+	cursor: pointer;
+	transition: all 0.25s ease;
+}
+.name {
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+}
+
+.box :hover {
+	background: #819acc;
+}
+
+.plan {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}

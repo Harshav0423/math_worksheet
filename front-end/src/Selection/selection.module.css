@@ -1,0 +1,91 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 50px;
+}
+.top {
+	padding-left: 10px;
+}
+.maintitle {
+	font-size: 42px;
+	font-weight: 500;
+	color: rgb(9, 0, 76);
+}
+.bottom {
+	display: flex;
+	flex-direction: row;
+}
+
+.bottomleft {
+	padding-left: 40px;
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	width: 100%;
+	background: #fff;
+}
+
+.content {
+	margin-top: 10px;
+}
+.title {
+	padding-left: 10px;
+	font-size: 22px;
+	font-weight: 500;
+	color: rgb(9, 0, 76);
+}
+
+.box {
+	height: 25px;
+	max-width: 250px;
+	display: flex;
+	background: rgb(23, 116, 189);
+	padding: 10px 12px;
+	border-radius: 5px;
+	border: 2px solid transparent;
+	cursor: pointer;
+	transition: all 0.25s ease;
+}
+.name {
+	font-size: 22px;
+	font-weight: 500;
+	color: white;
+}
+#addition:checked ~ label.addition {
+	background-color: #8e49e8;
+	background: #d5bbf7;
+}
+.box :hover {
+	background: #d5bbf7;
+}
+
+.circle {
+	height: 14px;
+	width: 14px;
+	background: white;
+	background-color: white;
+	border: 6px solid rgb(9, 0, 76);
+	display: inline-block;
+	margin-right: 15px;
+	border-radius: 50%;
+	transition: all 0.25s ease;
+	box-shadow: inset -4px -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.plan {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+/* input[type="radio"] {
+	display: none;
+} */
+
+.bottomright {
+	/* background-color: grey; */
+	width: 100%;
+	max-width: 650px;
+}

@@ -1,0 +1,43 @@
+.container {
+	display: flex;
+	margin-top: 10px;
+	height: 100vh;
+	gap: 6px;
+	flex-direction: row;
+}
+
+.left_part {
+	height: 100%;
+	flex: 15%;
+	background-color: #e1e1e1ba;
+}
+
+.right_part {
+	flex: 70%;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	/* gap: 10px; */
+}
+.divider {
+	flex: 0.1;
+	content: "";
+	background-color: #2576e8;
+	width: 4px;
+	height: 100vh;
+}
+.middle_part {
+	min-height: 45%;
+}
+
+.bottom_part {
+	flex-grow: 1;
+	height: 100%;
+}
+
+.liner {
+	/* display: flex; */
+	background-color: rgb(226, 59, 16);
+	height: 35px;
+	max-width: 80%;
+}

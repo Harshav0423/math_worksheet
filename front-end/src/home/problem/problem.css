@@ -1,0 +1,83 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	padding: 10px 12px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 12px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.content {
+	height: 250px;
+	width: 100%;
+	max-width: 180px;
+	display: flex;
+	background: rgb(237, 237, 237);
+	border-radius: 10px;
+	flex-direction: column;
+	/* align-items: flex-end; */
+	flex-wrap: wrap-reverse;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+.div1 {
+    flex: 0 0 20%;
+}
+.div2 {
+    flex: 1 0 40%;
+	width: 100%;
+	/* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    display: flex;
+    flex: 40% 1;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+.right {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 60%;
+}
+.div3 {
+    flex: 0 0 40%;
+    top:3px;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 25px;
+}
+
+.div3.disable {
+    pointer-events: none;
+}
+.content.box {
+    display: flex;
+    flex-direction: row;
+	height: 25px;
+	max-width: 100px;
+	background-color: rgb(208, 208, 208);
+	align-items: flex-end;
+	border-radius: 5px;
+    justify-content: flex-end;
+}
+.content.box.my {
+    width: 100%;
+    max-width: 150px;
+    background-color: white;
+    border: 4px solid rgb(9, 0, 76);
+    border-radius: 6px;
+}
+.name {
+	font: 22px;
+	font-weight: 500;
+	color: black;
+}

@@ -1,0 +1,60 @@
+.content {
+	margin-top: 10px;
+	color: white;
+}
+.title {
+	padding-left: 10px;
+	font-size: 22px;
+	font-weight: 500;
+	color: rgb(9, 0, 76);
+}
+
+.box {
+	height: 25px;
+	max-width: 250px;
+	display: flex;
+	background: rgb(23, 116, 189);
+	padding: 10px 12px;
+	border-radius: 5px;
+	border: 2px solid transparent;
+	cursor: pointer;
+	transition: all 0.25s ease;
+}
+.name {
+	font-size: 22px;
+	font-weight: 500;
+	color: white;
+}
+
+
+.circle {
+	height: 14px;
+	width: 14px;
+	border: 6px solid rgb(9, 0, 76);
+	display: inline-block;
+	margin-right: 15px;
+	border-radius: 50%;
+	transition: all 0.25s ease;
+	box-shadow: inset -4px -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#addition:checked ~ label.addition .circle{
+	background: rgb(154, 72, 72);
+}
+/* #addition:checked ~ label.addition .circle,
+#multiplication:checked ~ label.multiplication .circle,
+#subtraction:checked ~ label.subtraction .circle,
+#division:checked ~ label.division .circle {
+	background-color: rgb(152, 173, 188);
+	/* background: white;
+} */
+.plan {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+/* input[type="radio"] {
+	display: none;
+} */
